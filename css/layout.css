@@ -1,0 +1,65 @@
+@media screen and (min-width: 468px) and (max-width: 768px) {
+  nav {
+    background-color: blueviolet;
+		height: 75px;
+	}
+	aside {
+    background-color: blueviolet;
+		height: 150px;
+		width: 100%;
+	}
+	section {
+    background-color: blueviolet;
+		height: 150px;
+		width: 100%;
+  }
+  article{
+    background-color: blueviolet;
+    width: 49.9%;
+    height: 190px;
+    float: left;
+  }
+  footer{
+    background-color: blueviolet;
+    float: left;
+    height: 210px;
+    width:  100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+	nav {
+    background-color: chocolate;
+		height: 100px;
+	}
+	aside {
+    background-color: chocolate;
+		height: 600px;
+		width: 20%;
+		float: left;
+	}
+	section {
+    background-color: chocolate;
+		height: 200px;
+		width: 39.9%;
+		float: left;
+  }
+  #d section{
+    background-color: chocolate;
+    height: 200px;
+		width: 40%;
+		float: right;
+  }
+  article{
+    background-color: chocolate;
+    width: 19.9%;
+    height: 190px;
+    float: left;
+  }
+  footer{
+    background-color: chocolate;
+    float: left;
+    height: 210px;
+    width:  79.9%;
+  }
+}
